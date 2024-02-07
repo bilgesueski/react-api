@@ -4,3 +4,22 @@
   padding: 2rem;
   text-align: center;
 }
+.App {
+  margin: 10px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(42, 42, 130);
+}
+.searchDiv {
+  border: 1px solid lightgray;
+  padding: 10px;
+  border-radius: 5px;
+}
+.searchDiv form {
+  display: flex;
+  flex-direction: column;
+}
+.searchDiv button{
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin-left: 10px;
+}
