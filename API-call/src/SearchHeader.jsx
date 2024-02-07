@@ -1,6 +1,7 @@
 function SearchHeader({ search }) {
   const handleFormSubmit = (event) => {
     event.preventDefault();
+    debugger;
     search("bilgesu");
   };
   return (
@@ -9,7 +10,7 @@ function SearchHeader({ search }) {
         <label>Ne Arıyorsunuz?</label>
       </form>
       <input type="text" placeholder="" />
-      <button className="searchButton">Search</button>
+      <button>Search</button>
     </div>
   );
 }
