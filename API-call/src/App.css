@@ -12,14 +12,21 @@
 .searchDiv {
   border: 1px solid lightgray;
   padding: 10px;
+  margin: 10px;
   border-radius: 5px;
 }
 .searchDiv form {
   display: flex;
   flex-direction: column;
 }
-.searchDiv button{
-  border: 1px solid lightgray;
+.imageList{
+  columns: 250px 5; /* width and number of columns */
+  column-gap: 10px;
+}
+.imageListImg{
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
   border-radius: 5px;
-  margin-left: 10px;
+  margin-top: 20px;
 }
